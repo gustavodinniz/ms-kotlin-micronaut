@@ -1,0 +1,1 @@
+docker run -d --name ms-vehicle -p 5444:5432 -e POSTGRES_DB=ms-vehicle -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=123456 postgres:latest
